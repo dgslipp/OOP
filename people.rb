@@ -23,7 +23,15 @@ class Instructor < Person
 	end
 end
 
-dave = Instructor.new("dave", "slipp")
+class Greating < Person
+	def hi 
+		puts	"Hi, my name is #{first_name}"
+	end
+end
 
-dave.teach
+dave = Greating.new("Dave", "Slipp")
+barb = Greating.new("Barb", "Orr")
+
+dave.hi
+barb.hi
 
