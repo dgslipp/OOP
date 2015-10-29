@@ -35,12 +35,14 @@ end
 # Chris =.new("Chris", "Slipp")
 # Christina =.new("Christina", "Orr")
 
-Chris = Instructor.new("chris", "Slipp")
-Chris.greating
+# Chris = Instructor.new("chris", "Slipp")
+# Chris.greating
 
-Christina = Student.new("christina", "Orr")
-Christina.greating
+# Christina = Student.new("christina", "Orr")
+# Christina.greating
 
+Chris = Instructor.new("Chris", "Slipp")
+Chris.learn
 
 # Christina.hi
 
