@@ -23,7 +23,7 @@ class Instructor < Person
 	end
 end
 
-dave = Student.new("dave", "slipp")
+dave = Instructor.new("dave", "slipp")
 
-dave.learn
+dave.teach
 
