@@ -9,6 +9,9 @@ class Person
 	def last_name
 		@last_name
 	end
+	def greating
+		puts	"Hi, my name is #{first_name}"
+	end
 end
 
 class Student < Person
@@ -25,13 +28,19 @@ end
 
 class Greating < Person
 	def hi 
-		puts	"Hi, my name is #{first_name}"
+		
 	end
 end
 
-dave = Greating.new("Dave", "Slipp")
-barb = Greating.new("Barb", "Orr")
+# Chris =.new("Chris", "Slipp")
+# Christina =.new("Christina", "Orr")
 
-dave.hi
-barb.hi
+Chris = Instructor.new("chris", "Slipp")
+Chris.greating
+
+Christina = Student.new("christina", "Orr")
+Christina.greating
+
+
+# Christina.hi
 
