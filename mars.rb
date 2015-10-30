@@ -47,10 +47,3 @@ gets.chomp
 puts "The current position is = #{}"
 puts "Send move instructions to the rover -"
 gets.chomp
-
-
-
-
-
-
-
